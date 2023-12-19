@@ -3,7 +3,7 @@
 
 function changebg(){
       
-    const arr = ['url("./image/homebg.jpg")' , 'url("./image/_\ \(57\).jpg")' , 'url("./image/c6.jpg")' ,  'url("./image/c5.jpg")'];
+    const arr = ['url("./image/homebg.jpg")' , 'url("./image/(57).jpg")' , 'url("./image/c6.jpg")' ,  'url("./image/c5.jpg")'];
     const img = document.getElementsByClassName("main-content")[0];
     const bg = arr[Math.floor(Math.random() * arr.length)] ;
     img.style.backgroundImage =  bg;
