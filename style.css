@@ -320,7 +320,7 @@
     cursor: pointer;
 }
 #btn3 button:hover{
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(234, 232, 232);
 }
 @media screen and (max-width:895px){
     #btn3 button{
